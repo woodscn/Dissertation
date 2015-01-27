@@ -1,0 +1,69 @@
+\begin{thebibliography}{10}
+
+\bibitem{netlib}
+{AT\&T Bell Laboratories}, {University of Tennessee}, and {Oak Ridge National
+  Laboratory}.
+\newblock {Netlib}.
+
+\bibitem{Hui2007}
+W~H Hui.
+\newblock {The Unified Coordinate System in Computational Fluid Dynamics}.
+\newblock {\em Communications in Computational Physics}, 2(4):577--610, 2007.
+
+\bibitem{Hui2007a}
+W.~H. Hui, Z.~N. Wu, and B.~Gao.
+\newblock {Preliminary Extension of the Unified Coordinate System Approach to
+  Computation of Viscous Flows}.
+\newblock {\em Journal of Scientific Computing}, 30(2):301--344, October 2007.
+
+\bibitem{Hui1999}
+WH~Hui, PY~Li, and ZW~Li.
+\newblock {A unified coordinate system for solving the two-dimensional Euler
+  equations}.
+\newblock {\em Journal of Computational Physics}, 153:596--637, 1999.
+
+\bibitem{Oliphant2007}
+Travis~E Oliphant.
+\newblock {SciPy: Open source scientific tools for Python}.
+\newblock {\em Computing in Science and Engineering}, 9:10--20, 2007.
+
+\bibitem{Popov2006}
+Bojan Popov and Ognian Trifonov.
+\newblock {Order of convergence of second order schemes based on the minmod
+  limiter}.
+\newblock {\em Mathematics of computation}, 75(256):1735--1753, 2006.
+
+\bibitem{Sabac1997}
+F.~Sabac.
+\newblock {The Optimal Convergence Rate of Monotone Finite Difference Methods
+  for Hyperbolic Conservation Laws}.
+\newblock {\em SIAM Journal on Numerical Analysis}, 34(6):2306--2318, 1997.
+
+\bibitem{Schlichting2000}
+Herrmann Schlichting and Klaus Gersten.
+\newblock {\em {Boundary Layer Theory}}.
+\newblock Springer-Verlag, New York, 8th edition, 2000.
+
+\bibitem{Thomas1979}
+P~D Thomas and C~K Lombard.
+\newblock {Geometric Conservation Law and Its Application to Flow Computations
+  on Moving Grids}.
+\newblock {\em AIAA Journal}, 17(10):1030--1037, October 1979.
+
+\bibitem{Toro1999}
+E~F Toro.
+\newblock {NUMERICA: a Library of Source Codes for Teaching, Research and
+  Applications. HYPER-EUL. Methods for the Euler equations.}, 1999.
+
+\bibitem{Toro1994}
+Euletorio Toro.
+\newblock {The development of a Riemann solver for the steady supersonic Euler
+  equations}.
+\newblock {\em Aeronautical Journal}, 98:325--339, 1994.
+
+\bibitem{Toro2009}
+Euletorio Toro.
+\newblock {\em {Riemann Solvers and Numerical Methods for Fluid Dynamics}}.
+\newblock Springer, 2009.
+
+\end{thebibliography}

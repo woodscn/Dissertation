@@ -1,0 +1,30 @@
+\contentsline {part} {\figurenameToC }{\relax }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Computed Mach number for an under-expanded nozzle flow, showing the diamond-shock train}}{26}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Time-Lapse Images of Transonic Duct Flow}}{26}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Accuracy Comparison Between Moving and Stationary grids}}{26}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$h=0$, nominal grid size: $72 \times 20$}}}{26}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$h=0.25$, nominal grid size: $72 \times 20$}}}{26}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$h=0$, nominal grid size: $360 \times 100$}}}{26}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Channel Flow With a Turbulent Boundary Layer}}{27}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Diagram of USAF F-14 Tomcat}}{29}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Mach Number in F-14 Inlet}}{30}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces The 2-D Riemann problem with corresponding numerical error, stationary grid}}{38}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces The 2-D Riemann problem with corresponding numerical error, moving grid}}{39}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Order of convergence $n$ of {\tt BACL-Streamer} v2.0 for a two-dimensional Riemann problem.}}{40}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Root-mean-squared error for the oblique shock problem. The appearance of grid instabilities leads to two distinct error curves with different rates of convergence $n$.}}{42}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces A plot of normalized error in pressure, highlighting the oscillations which propagate downstream from the oblique shock.}}{43}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Root-mean-squared error for the Prandtl-Meyer expansion, with order of convergence $n$.}}{44}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Computed streamlines for Prandtl-Meyer expansion at increasing expansion angles. Angles are given in degrees. }}{45}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Manufactured solutions used for verification of {\tt BACL-Streamer} v3.0}}{56}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Measured convergence rates for {\tt BACL-Streamer} v3.0 using both differential and integrative MMS with smooth manufactured solutions.}}{58}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Convergence rates for discontinuous solutions: the two-dimensional Riemann problem; the one-dimensional Riemann problem computed with Toro's NUMERICA; the discontinuous manufactured solution.}}{59}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces The {\tt nquad} algorithm, diagrammed for 3+ dimensional integrals.}}{64}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Progressive steps of integration of a paraboloidal step function, showing the propagation of discontinuities.}}{68}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

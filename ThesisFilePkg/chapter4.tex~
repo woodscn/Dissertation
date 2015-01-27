@@ -1,0 +1,57 @@
+\chapter{Integration and the Method of Manufactured Solutions}
+\label{chpt:integration}
+
+As discussed in Section \ref{sec:ver-background}, the principal difficulty inherent in implementing the method of manufactured solutions for integral equations lies in the evaluation of the flux and volume integrals required in order to compute the manufactured source terms. Multidimensional integration is itself a difficult problem, and is made more so by the presence of discontinuities in the integrand. As the intended use of these integrals is to verify the numerical accuracy of other codes, it is important that they be evaluated as accurately as possible, which is also made more difficult by the presence of discontinuities. 
+
+To resolve these difficulties and enable the use of integrative manufactured solutions, an n-dimensional integration routine was developed for general types of functions, and methods were devised for the tracking of discontinuities through iterated applications of one-dimensional integration. The resulting algorithm effectively removes discontinuities from the integrand, allowing the evaluation of the integrals to proceed with the level of accuracy that would be expected for a continuously differentiable integrand function.
+
+\section{Background}
+\label{sec:int-background}
+
+Multidimensional integration routines generally belong to one of two classifications. Monte Carlo methods rely on the fact that, over many random function samples taken with the integration region, the average value of the samples will converge to the value of the integral of the function over that region. Monte Carlo methods are especially useful because the computational cost of this procedure does not increase with the dimensionality of the integral to be evaluated. There is also no additional difficulty introduced when integrating over complex integration domains, nor when integrating ill-behaved (singular, discontinuous) integrand functions. Unfortunately, convergence to the exact value of the integral is quite slow.
+
+In contrast, quadrature methods are more complex, and generally make more assumptions about both the integration domain and the integrand function. Quadrature methods work by sampling the function at some pre-defined number of points, using the samples to fit a polynomial to the integrand, and then evaluating the integral of the polynomial. Most quadrature methods are one-dimensional in nature, but some multidimensional methods do exist.\cite{Cuba/Cubature}. Because quadrature methods use polynomials to approximate the integrand function, difficulties arise when attempting to evaluate functions that cannot easily be represented as polynomials, such as discontinuous functions. For smooth functions, quadrature typically provides excellent accuracy when compared to Monte Carlo methods.
+
+Smoothing of integrand functions can be achieved through subdivision of the integration domain along discontinuous surfaces, resulting in a set of integrals over irregular domains where the integrand is smooth. In multiple dimensions, this process is analogous to the problem of shock-fitting, and very difficult...
+
+Although multidimensional subdivision of integrals is difficult, the same process is straightforward in one dimension. By using one-dimensional integration routines iteratively, the problem is greatly simplified. Some tools are ... 
+
+No available tools were able to do n-dimensional integrals, with the level of control necessary ...
+
+Given the initial locations of any discontinuities, it is only necessary to propagate these through each level of integration in order to subdivide the integral appropriately at every level such that the resulting function is smooth.
+
+\section{Nquad Development}
+\label{sec:int-nquad}
+
+As discussed in Section \ref{sec:int-background}, a tool needed to be developed for general n-dimensional integration using iterative application of one-dimensional quadrature. The SciPy library\cite{Oliphant2007} provided the closest such tool. The flexible nature of {\tt scipy.integrate.quad}, together with its support for multivariate functions, provided the basic functionality required for extension to n-dimensional problems, and it was selected as the baseline for development of {\tt nquad}, a general-purpose, flexible routine for the evaluation of multidimensional integrals, with access to the entire suite of {\tt Quadpack} integration tools.
+
+{\tt Nquad} was developed as a Python wrapper to {\tt scipy.integrate.quad}, following the model of the already extant {\tt scipy.integrate.dblquad} function. It provides a simple interface that nonetheless allows for fine control of the integration processes if desired. The user interface is a function call of the form:
+
+{\tt nquad(f,ranges,args,opts)}
+
+{\tt f} is the integrand function, and it has the function signature {\tt f(x0,...,xn,t0,...,tm)}, where {\tt x0,...,xn} are the integration variables, and {\tt t0,...,tm} are any additional arguments which the function requires. 
+{\tt f} may be defined most simply as a Python function, but the structure of the underlying integration library requires that the function be evaluated by callbacks to Python from the compiled {\tt Quadpack} functions, which entails a performance penalty, especially if the integrand function is complex. 
+
+As a result of the work done by Brian Newsom, who worked with the project as part of the Discovery Learning Apprentice program, it is also possible to improve computational performance by defining {\tt f} instead as a C function with the signature {\tt f(n+m,[x0,...,xn,t0,...,tm])}. This function can be compiled, loaded into Python using the {\tt ctypes} module contained in the Python standard library, and the resulting function pointer can be passed to {\tt nquad}. This bypasses any callbacks to Python in the innermost level of integration, and greatly improves computational efficiency. 
+
+{\tt ranges} is a Python sequence of integration ranges for the variables {\tt x0},...{\tt xn}. 
+
+\section{Discontinuity tracking}
+\label{sec:int-disc-tracking}
+
+Insert text here
+
+\section{BACL-Manufactured}
+\label{sec:int-BACL-Manufactured}
+
+Insert text here
+
+\section{Integrative Manufactured Solutions}
+\label{sec:int-IMMS}
+
+Insert text here
+
+\section{Future Work}
+\label{sec:int-future}
+
+Insert text here

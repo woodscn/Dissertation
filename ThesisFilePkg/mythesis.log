@@ -1,0 +1,648 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.9.11)  19 SEP 2014 14:01
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**mythesis.tex
+(./mythesis.tex
+LaTeX2e <2014/05/01>
+Babel <3.9k> and hyphenation patterns for 21 languages loaded.
+(./thesis.cls
+Document Class: thesis 2010/04/30
+
+--------------------------------------------------------------
+ +---+ Thesis Style (thesis.cls) version 1.11, April 2010
+ +---+ for University of Colorado Ph.D. theses/dissertations.
+ * Conforms to the University of Colorado at Boulder Graduate
+ * School "SPECIFICATIONS for Preparation of Master's Thesis
+ * and Doctoral Dissertations" (rev. April 2010).
+--------------------------------------------------------------
+ URL: http://www.colorado.edu/its/docs/latex/ThesisClass
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2014basic/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box26
+\UL@hyphenbox=\box27
+\UL@skip=\skip43
+\UL@hook=\toks14
+\UL@height=\dimen103
+\UL@pe=\count88
+\UL@pixel=\dimen104
+\ULC@box=\box28
+Package: ulem 2012/05/18
+\ULdepth=\dimen105
+)
+\c@th@SecNum=\count89
+\c@th@SectionSave=\count90
+\th@SubSubSecSpc=\skip44
+\c@th@storepage=\count91
+)
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks15
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2014basic/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count92
+))
+\Gin@req@height=\dimen106
+\Gin@req@width=\dimen107
+)
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip45
+\subfigcapskip=\skip46
+\subfigcaptopadj=\dimen108
+\subfigbottomskip=\skip47
+\subfigcapmargin=\dimen109
+\subfiglabelskip=\skip48
+\c@subfigure=\count93
+\c@lofdepth=\count94
+\c@subtable=\count95
+\c@lotdepth=\count96
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip49
+\subfig@bottom=\skip50
+)
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/subfigmat/subfigmat.sty
+Package: subfigmat 1999/02/27 v1.0 Subfigure Matrix Package
+\sfm@width=\skip51
+\sfmcolsep=\skip52
+\c@sfm@count=\count97
+)
+Putting page number on short ToC
+Putting page number on short LoF
+Putting page number on short LoT
+(./mythesis.aux
+
+LaTeX Warning: Label `sec:UCS-Riemann' multiply defined.
+
+)
+\openout1 = `mythesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+ (/usr/local/texlive/2014basic/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count98
+\scratchdimen=\dimen110
+\scratchbox=\box29
+\nofMPsegments=\count99
+\nofMParguments=\count100
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count101
+\MPscratchDim=\dimen111
+\MPnumerator=\count102
+\makeMPintoPDFobject=\count103
+\everyMPtoPDFconversion=\toks18
+) (/usr/local/texlive/2014basic/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2014basic/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+)) (/usr/local/texlive/2014basic/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Making Title Page
+Making Approval Page
+[1
+
+
+{/usr/local/texlive/2014basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2
+
+]
+Making Abstract Page
+[3]
+LaTeX Font Info:    Try loading font information for U+msa on input line 66.
+ (/usr/local/texlive/2014basic/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 66.
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Making Dedication Page
+[4
+
+]
+centered
+Making Acknowledgement Page
+[5
+
+
+]
+centered
+Making ToC Page
+Making Short ToC...
+[6
+
+
+]
+centered
+Short Chapter (page numbered)
+(./mythesis.toc [7
+
+] [8] [9])
+\tf@toc=\write3
+\openout3 = `mythesis.toc'.
+
+
+Making LoT Page
+Making Short LoT...
+[10]
+centered
+Short Chapter (page numbered)
+(./mythesis.lot)
+\tf@lot=\write4
+\openout4 = `mythesis.lot'.
+
+
+Making LoF Page
+Making Short LoF...
+[11
+
+]
+centered
+Short Chapter (page numbered)
+(./mythesis.lof [12
+
+])
+\tf@lof=\write5
+\openout5 = `mythesis.lof'.
+
+
+
+
+-------------------Beginning Body----------------------
+
+
+[13] (./macros.tex
+\c@th@theorem=\count104
+) (./chapter1.tex
+ \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 1.
+centered
+) (./chapter2.tex [1
+
+
+]
+ \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 2.
+centered
+[2
+
+] [3] [4] [5] [6]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 984.
+
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 984.
+ [7] [8]
+[9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21] [22] [23]
+<../images/diamond_shock_train.pdf, id=133, 433.62pt x 115.43124pt>
+File: ../images/diamond_shock_train.pdf Graphic file (type pdf)
+
+<use ../images/diamond_shock_train.pdf>
+Package pdftex.def Info: ../images/diamond_shock_train.pdf used on input line 2
+602.
+(pdftex.def)             Requested size: 469.75499pt x 125.05666pt.
+ [24]
+<../images/Channel_flow_filmstrip_image_mach.pdf, id=138, 469.755pt x 49.18375p
+t>
+File: ../images/Channel_flow_filmstrip_image_mach.pdf Graphic file (type pdf)
+ <use ../images/Channel_flow_filmstrip_image_mach.pdf>
+Package pdftex.def Info: ../images/Channel_flow_filmstrip_image_mach.pdf used o
+n input line 2613.
+(pdftex.def)             Requested size: 469.75499pt x 49.18361pt.
+
+<../images/shock_train_contourh00p4.pdf, id=139, 446.66875pt x 140.525pt>
+File: ../images/shock_train_contourh00p4.pdf Graphic file (type pdf)
+
+<use ../images/shock_train_contourh00p4.pdf>
+Package pdftex.def Info: ../images/shock_train_contourh00p4.pdf used on input l
+ine 2625.
+(pdftex.def)             Requested size: 211.3883pt x 66.50562pt.
+
+<../images/shock_train_surfh00p4.pdf, id=140, 543.02875pt x 159.59625pt>
+File: ../images/shock_train_surfh00p4.pdf Graphic file (type pdf)
+
+<use ../images/shock_train_surfh00p4.pdf>
+Package pdftex.def Info: ../images/shock_train_surfh00p4.pdf used on input line
+ 2625.
+(pdftex.def)             Requested size: 211.3883pt x 62.12782pt.
+
+<../images/shock_train_contourh250p4.pdf, id=141, 433.62pt x 127.47626pt>
+File: ../images/shock_train_contourh250p4.pdf Graphic file (type pdf)
+
+<use ../images/shock_train_contourh250p4.pdf>
+Package pdftex.def Info: ../images/shock_train_contourh250p4.pdf used on input 
+line 2628.
+(pdftex.def)             Requested size: 211.3883pt x 62.1449pt.
+
+<../images/shock_train_surfh250p4.pdf, id=142, 588.1975pt x 159.59625pt>
+File: ../images/shock_train_surfh250p4.pdf Graphic file (type pdf)
+
+<use ../images/shock_train_surfh250p4.pdf>
+Package pdftex.def Info: ../images/shock_train_surfh250p4.pdf used on input lin
+e 2628.
+(pdftex.def)             Requested size: 211.3883pt x 57.35475pt.
+
+<../images/shock_train_contourh02p0.pdf, id=143, 433.62pt x 127.47626pt>
+File: ../images/shock_train_contourh02p0.pdf Graphic file (type pdf)
+
+<use ../images/shock_train_contourh02p0.pdf>
+Package pdftex.def Info: ../images/shock_train_contourh02p0.pdf used on input l
+ine 2631.
+(pdftex.def)             Requested size: 211.3883pt x 62.1449pt.
+
+<../images/shock_train_surfh02p0.pdf, id=144, 469.755pt x 132.495pt>
+File: ../images/shock_train_surfh02p0.pdf Graphic file (type pdf)
+
+<use ../images/shock_train_surfh02p0.pdf>
+Package pdftex.def Info: ../images/shock_train_surfh02p0.pdf used on input line
+ 2631.
+(pdftex.def)             Requested size: 211.3883pt x 59.6222pt.
+
+<../images/BL_shock_train2.pdf, id=145, 588.1975pt x 206.7725pt>
+File: ../images/BL_shock_train2.pdf Graphic file (type pdf)
+
+<use ../images/BL_shock_train2.pdf>
+Package pdftex.def Info: ../images/BL_shock_train2.pdf used on input line 2663.
+
+(pdftex.def)             Requested size: 469.75499pt x 165.1374pt.
+ [25] [26 <../images/diamond_shock_train.pdf> <../images/Channel_flow_filmstrip
+_image_mach.pdf> <../images/shock_train_contourh00p4.pdf> <../images/shock_trai
+n_surfh00p4.pdf> <../images/shock_train_contourh250p4.pdf> <../images/shock_tra
+in_surfh250p4.pdf> <../images/shock_train_contourh02p0.pdf> <../images/shock_tr
+ain_surfh02p0.pdf>] [27 <../images/BL_shock_train2.pdf>] <../images/F_14_inlet_
+diagram.pdf, id=203, 614.295pt x 794.97pt>
+File: ../images/F_14_inlet_diagram.pdf Graphic file (type pdf)
+
+<use ../images/F_14_inlet_diagram.pdf>
+Package pdftex.def Info: ../images/F_14_inlet_diagram.pdf used on input line 26
+77.
+(pdftex.def)             Requested size: 469.75499pt x 607.9196pt.
+
+<../images/F_14_filmstrip_5clean.pdf, id=204, 448.67625pt x 338.26375pt>
+File: ../images/F_14_filmstrip_5clean.pdf Graphic file (type pdf)
+
+<use ../images/F_14_filmstrip_5clean.pdf>
+Package pdftex.def Info: ../images/F_14_filmstrip_5clean.pdf used on input line
+ 2692.
+(pdftex.def)             Requested size: 469.75499pt x 354.16544pt.
+ [28] [29 <../images/F_14_inlet_diagram.pdf>] [30 <../images/F_14_filmstrip_5cl
+ean.pdf>] [31] [32]) (./chapter3.tex
+[33]
+ \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 3.
+centered
+[34
+
+] [35] [36] <../images/density_error_0.pdf, id=244, 433.62pt x 325.215pt>
+File: ../images/density_error_0.pdf Graphic file (type pdf)
+
+<use ../images/density_error_0.pdf>
+Package pdftex.def Info: ../images/density_error_0.pdf used on input line 57.
+(pdftex.def)             Requested size: 469.75499pt x 352.33357pt.
+
+<../images/density_error_9.pdf, id=245, 433.62pt x 325.215pt>
+File: ../images/density_error_9.pdf Graphic file (type pdf)
+
+<use ../images/density_error_9.pdf>
+Package pdftex.def Info: ../images/density_error_9.pdf used on input line 63.
+(pdftex.def)             Requested size: 469.75499pt x 352.33357pt.
+
+<../images/Riemann_convergence.pdf, id=246, 449.68pt x 338.26375pt>
+File: ../images/Riemann_convergence.pdf Graphic file (type pdf)
+
+<use ../images/Riemann_convergence.pdf>
+Package pdftex.def Info: ../images/Riemann_convergence.pdf used on input line 7
+5.
+(pdftex.def)             Requested size: 469.75499pt x 353.38089pt.
+ [37] [38 <../images/density_error_0.pdf>] [39 <../images/density_error_9.pdf>]
+ [40 <../images/Riemann_convergence.pdf>] <../images/shock_convergence.pdf, id=
+281, 433.62pt x 325.215pt>
+File: ../images/shock_convergence.pdf Graphic file (type pdf)
+
+<use ../images/shock_convergence.pdf>
+Package pdftex.def Info: ../images/shock_convergence.pdf used on input line 90.
+
+(pdftex.def)             Requested size: 469.75499pt x 352.33357pt.
+
+<../images/shock_instabilities.pdf, id=282, 433.62pt x 325.215pt>
+File: ../images/shock_instabilities.pdf Graphic file (type pdf)
+
+<use ../images/shock_instabilities.pdf>
+Package pdftex.def Info: ../images/shock_instabilities.pdf used on input line 9
+5.
+(pdftex.def)             Requested size: 469.75499pt x 352.33357pt.
+
+<../images/fan_convergence.pdf, id=283, 433.62pt x 325.215pt>
+File: ../images/fan_convergence.pdf Graphic file (type pdf)
+
+<use ../images/fan_convergence.pdf>
+Package pdftex.def Info: ../images/fan_convergence.pdf used on input line 103.
+(pdftex.def)             Requested size: 469.75499pt x 352.33357pt.
+
+<../images/Expansion.pdf, id=284, 433.62pt x 325.215pt>
+File: ../images/Expansion.pdf Graphic file (type pdf)
+
+<use ../images/Expansion.pdf>
+Package pdftex.def Info: ../images/Expansion.pdf used on input line 110.
+(pdftex.def)             Requested size: 469.75499pt x 352.33357pt.
+ [41] [42 <../images/shock_convergence.pdf>]
+[43 <../images/shock_instabilities.pdf>] [44 <../images/fan_convergence.pdf>]
+[45 <../images/Expansion.pdf>] [46] [47] [48] [49]
+Overfull \hbox (13.47322pt too wide) in paragraph at lines 219--220
+\OT1/cmtt/m/n/10.95 main.py\OT1/cmr/m/n/10.95 , which cov-ers ba-sic sim-u-la-t
+ion ini-tial-iza-tion and time-stepping, and \OT1/cmtt/m/n/10.95 BoundaryCondit
+ions.py\OT1/cmr/m/n/10.95 ,
+ []
+
+[50]
+Overfull \hbox (40.82954pt too wide) in paragraph at lines 234--235
+[]\OT1/cmr/m/n/10.95 For more in-for-ma-tion on the ef-fects of these ob-jects,
+ con-sult the \OT1/cmtt/m/n/10.95 main.py \OT1/cmr/m/n/10.95 and \OT1/cmtt/m/n/
+10.95 BoundaryConditions.py
+ []
+
+[51]
+Overfull \hbox (90.40578pt too wide) in paragraph at lines 241--242
+[]\OT1/cmtt/m/n/10.95 BoundaryCondtions.py\OT1/cmr/m/n/10.95 , \OT1/cmtt/m/n/10
+.95 BoundaryConditionsStuff.f90\OT1/cmr/m/n/10.95 , and the code-generated \OT1
+/cmtt/m/n/10.95 FortranNormalVectors.f90
+ []
+
+
+Overfull \hbox (61.31895pt too wide) in paragraph at lines 244--245
+[]\OT1/cmtt/m/n/10.95 BACL-Streamer \OT1/cmr/m/n/10.95 v3.0 is also in-te-grate
+d with the \OT1/cmtt/m/n/10.95 BACL-manufactured \OT1/cmr/m/n/10.95 Python pack
+-age. \OT1/cmtt/m/n/10.95 BACL-manufactured
+ []
+
+[52] [53] [54]
+<../images/Manufactured_Solutions.pdf, id=361, 504.88625pt x 379.4175pt>
+File: ../images/Manufactured_Solutions.pdf Graphic file (type pdf)
+
+<use ../images/Manufactured_Solutions.pdf>
+Package pdftex.def Info: ../images/Manufactured_Solutions.pdf used on input lin
+e 335.
+(pdftex.def)             Requested size: 469.75499pt x 353.0225pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--347
+[]\OT1/cmr/m/n/10.95 Smooth, dif-fer-en-tial,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 355--355
+[]$\OT1/cmr/m/n/10.95 ^^A\OML/cmm/m/it/10.95 x \OT1/cmr/m/n/10.95 =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
+[]\OT1/cmr/m/n/10.95 Discontinuous, in-te-gral,
+ []
+
+
+Underfull \hbox (badness 3657) in paragraph at lines 363--363
+[]$\OT1/cmr/m/n/10.95 ^^A\OML/cmm/m/it/10.95 x \OT1/cmr/m/n/10.95 = ^^A\OML/cmm
+/m/it/10.95 y \OT1/cmr/m/n/10.95 =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--366
+[]$\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/
+10.95 0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 6\OMS/cmsy/m/n/10.95 g ^^B
+ []
+
+[55] [56 <../images/Manufactured_Solutions.pdf>]
+Overfull \hbox (6.11047pt too wide) in paragraph at lines 371--390
+[][] 
+ []
+
+
+<../images/SmoothManufacturedConvergence_ppt.pdf, id=380, 433.62pt x 277.035pt>
+File: ../images/SmoothManufacturedConvergence_ppt.pdf Graphic file (type pdf)
+<use ../images/SmoothManufacturedConvergence_ppt.pdf>
+Package pdftex.def Info: ../images/SmoothManufacturedConvergence_ppt.pdf used o
+n input line 394.
+(pdftex.def)             Requested size: 469.75499pt x 300.136pt.
+
+<../images/Disc_Combined.pdf, id=381, 433.62pt x 302.12875pt>
+File: ../images/Disc_Combined.pdf Graphic file (type pdf)
+
+<use ../images/Disc_Combined.pdf>
+Package pdftex.def Info: ../images/Disc_Combined.pdf used on input line 401.
+(pdftex.def)             Requested size: 469.75499pt x 327.32224pt.
+ [57] [58 <../images/SmoothManufacturedConvergence_ppt.pdf>] [59 <../images/Dis
+c_Combined.pdf>]) (./chapter4.tex [60]
+ \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 4.
+centered
+[61
+
+]
+
+LaTeX Warning: Citation `Cuba/Cubature' on page 62 undefined on input line 13.
+
+[62] <../images/nquad_flow_chart.pdf, id=421, 722.7pt x 542.025pt>
+File: ../images/nquad_flow_chart.pdf Graphic file (type pdf)
+
+<use ../images/nquad_flow_chart.pdf>
+Package pdftex.def Info: ../images/nquad_flow_chart.pdf used on input line 37.
+(pdftex.def)             Requested size: 469.75499pt x 352.32034pt.
+ [63] [64 <../images/nquad_flow_chart.pdf>] [65] [66]
+<../images/Nate_Combined_Integration_pics2.pdf, id=626, 465.74pt x 610.28pt>
+File: ../images/Nate_Combined_Integration_pics2.pdf Graphic file (type pdf)
+
+<use ../images/Nate_Combined_Integration_pics2.pdf>
+Package pdftex.def Info: ../images/Nate_Combined_Integration_pics2.pdf used on 
+input line 148.
+(pdftex.def)             Requested size: 469.75499pt x 615.55846pt.
+
+
+LaTeX Warning: Float too large for page by 5.10103pt on input line 150.
+
+[67] [68 <../images/Nate_Combined_Integration_pics2.pdf>]
+Overfull \hbox (2.96017pt too wide) in paragraph at lines 156--157
+[]\OT1/cmr/m/n/10.95 If crit-i-cal sur-faces of some func-tion $\OML/cmm/m/it/1
+0.95 F[] []$ \OT1/cmr/m/n/10.95 are de-noted by the func-tions $\OML/cmm/m/it/1
+0.95 f[] [] \OT1/cmr/m/n/10.95 =
+ []
+
+[69]) (./chapter5.tex [70]
+ \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 5.
+centered
+) (./mythesis.bbl [71
+
+]
+centered
+) (./appendixA.tex [72
+
+]
+ \th@ChapterStyle\th@DoChapCenterAppendix \th@ChapterStyle A.
+centered
+) (./appendixB.tex [73
+
+]
+ \th@ChapterStyle\th@DoChapCenterAppendix \th@ChapterStyle B.
+centered
+) (./appendixC.tex [74
+
+]
+ \th@ChapterStyle\th@DoChapCenterAppendix \th@ChapterStyle C.
+centered
+) [75
+
+] (./mythesis.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2689 strings out of 494522
+ 40796 string characters out of 6167205
+ 121186 words of memory out of 5000000
+ 5838 multiletter control sequences out of 15000+600000
+ 15419 words of font info for 58 fonts, out of 8000000 for 9000
+ 319 hyphenation exceptions out of 8191
+ 39i,21n,28p,1245b,301s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2014basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
+0.pfb></usr/local/texlive/2014basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mbx12.pfb></usr/local/texlive/2014basic/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmbx8.pfb></usr/local/texlive/2014basic/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmex10.pfb></usr/local/texlive/2014basic/texmf-dist/fonts/type1/public/am
+sfonts/cmextra/cmex8.pfb></usr/local/texlive/2014basic/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2014basic/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2014basic/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2014basic/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2014basic/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2014basic/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2014basic/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2014basic/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2014basic/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014basi
+c/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2014b
+asic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/20
+14basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive
+/2014basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/tex
+live/2014basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local
+/texlive/2014basic/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on mythesis.pdf (88 pages, 2858361 bytes).
+PDF statistics:
+ 738 PDF objects out of 1000 (max. 8388607)
+ 474 compressed objects within 5 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 116 words of extra memory for PDF output out of 10000 (max. 10000000)
+
